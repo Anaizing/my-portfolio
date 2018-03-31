@@ -20,8 +20,8 @@
 		background-color: transparent;
 		border: 0;
 		border-radius: 0;
-		box-shadow: inset 0 0 0 2px _palette(fg-bold);
-		color: _palette(fg-bold);
+		box-shadow: inset 0 0 0 2px #421C52;
+		color: #421C52;
 		cursor: pointer;
 		display: inline-block;
 		font-size: 0.8em;
@@ -109,7 +109,7 @@
 		}
 
 		&.special {
-			background-color: _palette(fg-bold);
+			background-color: #00FF8D;
 			box-shadow: none;
 			color: _palette(bg);
 
