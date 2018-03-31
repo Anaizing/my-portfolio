@@ -3,9 +3,9 @@ import Link from 'gatsby-link'
 import Helmet from 'react-helmet'
 import Banner from '../components/Banner'
 
-import me from '../assets/images/me.png'
+import yiseinDevices from '../assets/images/yiseinDevices.png'
 import soggyPromise from '../assets/images/soggyPromise.png'
-import pic03 from '../assets/images/pic03.jpg'
+import soggyDevices from '../assets/images/soggyDevices.png'
 import pic04 from '../assets/images/pic04.jpg'
 import pic05 from '../assets/images/pic05.jpg'
 import pic06 from '../assets/images/pic06.jpg'
@@ -26,21 +26,21 @@ class HomeIndex extends React.Component {
 
                 <div id="main">
                     <section id="one" className="tiles">
-                        <article style={{backgroundImage: `url(${me})`}}>
+                        <article style={{backgroundImage: `url(${yiseinDevices})`}}>
                             <header className="major">
                                 <h3>Reusable Component Library</h3>
                                 <p>Ipsum dolor sit amet</p>
                             </header>
                             <Link to="/landing" className="link primary"></Link>
                         </article>
-                        <article style={{backgroundImage: `url(${soggyPromise})`}}>
+                        <article style={{backgroundImage: `url(${soggyDevices})`}}>
                             <header className="major">
                                 <h3>Soggy Ink</h3>
                                 <p>feugiat amet tempus</p>
                             </header>
                             <Link to="/soggyInk" className="link primary"></Link>
                         </article>
-                        <article style={{backgroundImage: `url(${pic03})`}}>
+                        <article style={{backgroundImage: `url(${yiseinDevices})`}}>
                             <header className="major">
                                 <h3>Writers Blog</h3>
                                 <p>Lorem etiam nullam</p>
