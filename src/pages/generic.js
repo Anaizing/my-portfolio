@@ -2,7 +2,7 @@ import React from 'react'
 import Link from 'gatsby-link'
 import Helmet from 'react-helmet'
 
-import pic11 from '../assets/images/pic11.jpg'
+import me from '../assets/images/me.png'
 
 const Generic = (props) => (
     <div>
@@ -17,7 +17,7 @@ const Generic = (props) => (
                     <header className="major">
                         <h1>Anai Araya</h1>
                     </header>
-                    <span className="image main"><img src={pic11} alt="" /></span>
+                    <span className="image left"><img src={me}  alt="" /></span>
                     <p>An inquisitive Web Developer with a knack for creative problem solving, who strongly believes the internet should be readily accessible to everyone. Therefore understands the importance of accessibility and strives for compliance with WCAG 2.0.</p>
                     <p>Skilled in various front and back end languages with a strong focus on Javascript and its ecosystem, including Node.js, React, Express.js, Gatsby.js among others and has a firm grasp on package management, version control & bundling tools like Webpack, Grunt, Gulp.</p>
                     <p>Really enjoys working with components, modular architecture and microservices. When building reusable component libraries, enjoys the use of CSS in JS and CSS Modules for styling, although always open to discuss alternatives.</p>
